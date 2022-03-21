@@ -11,7 +11,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://fsher07.github.io/plain-js-with-objects/)
+[Live Demo Link](https://benmuiruri.github.io/microverse-awesome-books/)
 
 
 ## Getting Started
@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps.
 
 -to run the project locally, clone the project using the commands and link below:
 
--git clone https://github.com/Fsher07/plain-js-with-objects.git
+-git clone git@github.com:Benmuiruri/microverse-awesome-books.git
 
 ## Authors
 
@@ -40,7 +40,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Benmuiruri/microverse-awesome-books/issues).
 
 ## Show your support
 

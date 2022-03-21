@@ -1,5 +1,5 @@
 import Book from './modules/book.js';
-import { DateTime } from './modules/luxon.js';
+import DisplayTime from './modules/date.js';
 
 Book.listBtn.forEach((btn, i) => {
   btn.onclick = () => {
@@ -17,9 +17,7 @@ Book.listBtn.forEach((btn, i) => {
   };
 });
 
-
-
-displayTime();
+DisplayTime();
 
 Book.updateUi();
 
