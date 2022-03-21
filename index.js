@@ -19,7 +19,7 @@ Book.listBtn.forEach((btn, i) => {
 
 const displayTime = () => {
   document.getElementById('date').innerHTML = DateTime.now().toLocaleString(
-    DateTime.DATETIME_MED_WITH_SECONDS
+    DateTime.DATETIME_MED_WITH_WEEKDAY
   );
   setInterval(displayTime, 1000);
 };
