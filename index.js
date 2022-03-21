@@ -1,5 +1,5 @@
 import Book from './modules/book.js';
-import { DateTime } from './modules/luxon.js';
+import DisplayTime from './modules/date.js';
 
 Book.listBtn.forEach((btn, i) => {
   btn.onclick = () => {
@@ -17,14 +17,7 @@ Book.listBtn.forEach((btn, i) => {
   };
 });
 
-const displayTime = () => {
-  document.getElementById('date').innerHTML = DateTime.now().toLocaleString(
-    DateTime.DATETIME_MED_WITH_WEEKDAY,
-  );
-  setInterval(displayTime, 1000);
-};
-
-displayTime();
+DisplayTime();
 
 Book.updateUi();
 
